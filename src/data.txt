@@ -1,0 +1,4 @@
+https://github.com/davidmerfield/randomColor/blob/a045a83a2ee0de85ed5448b938ff4d6ef18a397e/randomColor.js#L324
+https://en.wikipedia.org/wiki/HSL_and_HSV
+https://github.com/sterlingwes/RandomColor
+https://martin.ankerl.com/2009/12/09/how-to-create-random-colors-programmatically/
