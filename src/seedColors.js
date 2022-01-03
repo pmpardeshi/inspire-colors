@@ -1,13 +1,13 @@
 export default [
   {
-    paletteName: "Five BLues",
-    id: "five-blues",
+    paletteName: "Green Five",
+    id: "green-five",
     colors: [
-      { name: "navy", color: "#000080" },
-      { name: "steelblue", color: "#4682b4" },
-      { name: "dodgerblue", color: "#1e90ff" },
-      { name: "lightskyblue", color: "#87cefa" },
-      { name: "lightsteelblue", color: "#b0c4de" },
+      { name: "springgreen", color: "#00ff7f" },
+      { name: "palegreen", color: "#98fb98" },
+      { name: "mediumaquamarine", color: "#66cdaa" },
+      { name: "lightseagreen", color: "#20b2aa" },
+      { name: "teal", color: "#008080" },
     ],
   },
 ];

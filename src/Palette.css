@@ -1,0 +1,13 @@
+.Palette {
+  height: 100vh;
+}
+
+.Palette-colors {
+  height: 95%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.Palette-nav {
+  height: 5%;
+}

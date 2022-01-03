@@ -1,0 +1,44 @@
+.ColorBox {
+  height: 100%;
+  text-align: center;
+}
+
+.Copy-container {
+  height: 100%;
+  display: grid;
+  align-items: center;
+  grid-template-rows: auto;
+}
+
+.Copy-button {
+  width: 10rem;
+  height: 2rem;
+  border-radius: 5px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  background: transparent;
+  color: black;
+  line-height: 2rem;
+  text-transform: uppercase;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.Copy-button:hover {
+  border: 2px solid rgba(255, 255, 255, 1);
+}
+
+.Box-content {
+  opacity: 0;
+  height: 100%;
+  color: black;
+  text-align: center;
+  line-height: 100%;
+  text-transform: uppercase;
+  /* border: 2px solid black; */
+}
+
+.Copy-container:hover .Copy-button,
+.Copy-container:hover .Box-content {
+  opacity: 1;
+  transition: 0.25s;
+}

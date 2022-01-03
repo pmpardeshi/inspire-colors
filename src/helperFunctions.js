@@ -19,4 +19,4 @@ const getContrastRatio = (colorA, colorB) => {
 const back_color = [255, 255, 255]; //white
 const text_color = [255, 255, 0]; //yellow
 
-getContrastRatio(back_color, text_color); // 1.0736196319018405
+// getContrastRatio(back_color, text_color); // 1.0736196319018405
