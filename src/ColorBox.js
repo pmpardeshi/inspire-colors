@@ -9,8 +9,8 @@ function ColorBox(props) {
 
   const handleCopy = () => {
     setIsCopied(true);
-    return toast("Copied!", {
-      duration: 1000,
+    return toast(`Copied ${background}`, {
+      duration: 2000,
       style: { background: "springgreen", outline: "none" },
     });
   };
