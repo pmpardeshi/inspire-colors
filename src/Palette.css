@@ -1,14 +1,28 @@
 .Palette {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .Palette-colors {
-  height: 95%;
+  height: 90%;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
 
 .Palette-nav {
-  height: 5%;
-  background-color: grey;
+  height: 6.5%;
+}
+
+.Palette-footer {
+  height: 3.5%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 2rem;
+  font-weight: bold;
+}
+
+.palette-name {
+  margin-right: 1rem;
 }

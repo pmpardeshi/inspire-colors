@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./ColorBox.css";
 import { CopyToClipboard } from "react-copy-to-clipboard";
-import toast, { Toaster } from "react-hot-toast";
 
 function ColorBox(props) {
   const { background, name } = props;
@@ -9,17 +8,14 @@ function ColorBox(props) {
 
   const handleCopy = () => {
     setIsCopied(true);
-    return toast(`Copied ${background}`, {
-      duration: 2000,
-      style: { background: "springgreen", outline: "none" },
-    });
+    props.raiseToast(`Copied ${background}`);
   };
 
   return (
     <div style={{ background }} className="ColorBox">
       <div className="Copy-container">
         <div>
-          <Toaster />
+          {/* <Toaster /> */}
           <CopyToClipboard text={background} onCopy={handleCopy}>
             <button className="Copy-button">Copy</button>
           </CopyToClipboard>

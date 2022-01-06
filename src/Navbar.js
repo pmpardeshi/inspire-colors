@@ -4,6 +4,7 @@ import MenuItem from "@mui/material/MenuItem";
 import Slider, { Range } from "rc-slider";
 import "rc-slider/assets/index.css";
 import "./Navbar.css";
+import { NavLink } from "react-router-dom";
 
 function Navbar(props) {
   const { level, changeLevel } = props;
@@ -18,7 +19,7 @@ function Navbar(props) {
   return (
     <nav className="Navbar">
       <div className="logo">
-        <a href="#">Inspire Colors</a>
+        <NavLink to={`/`}>Inspire Colors</NavLink>
       </div>
       <div className="slider-container">
         <span>Level: {level} </span>
